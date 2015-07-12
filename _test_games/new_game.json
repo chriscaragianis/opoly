@@ -1,0 +1,65 @@
+{
+  "cash" : [0,0,0],
+
+  "spaces" : [ 
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    },
+
+    {
+      "owner" : "bank",
+      "lien" : false,
+      "developed" : 0
+    }
+  ]
+} 
