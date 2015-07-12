@@ -14,13 +14,15 @@ class OpolyTest < Minitest::Test
   end
  
   def test_outputs_valid_game_state
-    assert_equal @new_game_out['cash'].length, @players
-    assert_equal @new_game_out['spaces'].length, @spaces 
+    assert_equal @new_game_out['cash'].length, @players, "Cash array not player length"
+    assert_equal @new_game_out['spaces'].length, @spaces, "Wrong number of spaces"
     @new_game_out['spaces'].each do |n|
-      assert_equal n.length, @prop_fields
-      assert n['owner'].is_a? String
-      assert [true, false].include? n['lien']
-      assert n['developed'] <= 6 && n['developed'] >= 0
+      assert_equal n.length, @prop_fields, "Bad size of a space object"
+      assert n['owner'].is_a?( String ), "Owner is not a string"
+      assert [true, false].include?( n['lien'] ), "Lien is not true or false"
+      assert n['developed'] <= 6 && n['developed'] >= 0, "Bad development number"
     end
   end
+
+  
 end
